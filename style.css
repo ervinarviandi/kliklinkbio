@@ -10,7 +10,7 @@
 } */
 
 body {
-  height: 765px;
+  height: 665px;
   background: linear-gradient(to right, #845ee6, #ef96e7, #3c72c2, #3cc269);
   background-size: 400% 400%;
   animation: body 10s infinite ease-in-out;
@@ -35,7 +35,7 @@ body {
   margin-right: auto;
   margin-top: 5%;
   height: auto;
-  max-width: 200px;
+  max-width: 100px;
   border-radius: 50%;
   border: 5px solid #fff;
 }
@@ -43,35 +43,35 @@ body {
 .profile-name {
   text-align: center;
   padding: 30px;
-  font-size: 32px;
+  font-size: 24px;
   color: aliceblue;
 }
 
 .profile-name p {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 7px;
   margin-bottom: 5px;
 }
 
 marquee {
   color: #ffbb00;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Viga" sans-serif;
 }
 
 .link {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 7px;
   /* border: 1px solid red; */
   border-width: 2px;
   padding: 10px;
-  width: 300px;
+  width: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50px;
-  font-size: 24px;
+  font-size: 18px;
   background-color: #845ee6;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
 }
@@ -100,7 +100,7 @@ a {
   letter-spacing: 2px;
   color: #ffbb00;
   /* outline: 2px solid #fff; */
-  padding: 30px 60px;
+  padding: 10px 20px;
   position: relative;
   overflow: hidden;
   transition: color 1s;
@@ -147,7 +147,7 @@ footer p span {
   font-weight: 500;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 575.98px) {
   body {
     height: 560;
   }
@@ -175,7 +175,7 @@ footer p span {
   .link {
     text-align: center;
     margin-top: 10px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     border-width: 2px;
     padding: 5px;
     width: 200px;
@@ -190,13 +190,13 @@ footer p span {
 
   a {
     text-decoration: none;
-    /* color: purple; */
+    color: purple;
     letter-spacing: 2px;
     color: #ffbb00;
-    /* outline: 2px solid #fff; */
+    outline: 2px solid #fff;
     padding: 10px 40px;
     position: relative;
     overflow: hidden;
     transition: color 1s;
   }
-}
+} */
