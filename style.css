@@ -10,7 +10,7 @@
 } */
 
 body {
-  height: 865px;
+  height: 765px;
   background: linear-gradient(to right, #845ee6, #ef96e7, #3c72c2, #3cc269);
   background-size: 400% 400%;
   animation: body 10s infinite ease-in-out;
@@ -128,6 +128,7 @@ a::before {
   border-radius: 40px 40px;
   padding: 20px 20px;
   background: url(img/patern.png);
+  border-style: none;
 }
 
 footer {
@@ -144,4 +145,58 @@ footer p {
 footer p span {
   color: #ffbb00;
   font-weight: 500;
+}
+
+@media (min-width: 576px) {
+  body {
+    height: 560;
+  }
+
+  .profil-picture {
+    max-width: 100px;
+  }
+
+  .profile-name {
+    padding: 20px;
+    font-size: 24px;
+  }
+
+  .profile-name p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+
+  marquee {
+    color: #ffbb00;
+    font-size: 15px;
+    font-family: "Viga" sans-serif;
+  }
+
+  .link {
+    text-align: center;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    border-width: 2px;
+    padding: 5px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: #845ee6;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  a {
+    text-decoration: none;
+    /* color: purple; */
+    letter-spacing: 2px;
+    color: #ffbb00;
+    /* outline: 2px solid #fff; */
+    padding: 10px 40px;
+    position: relative;
+    overflow: hidden;
+    transition: color 1s;
+  }
 }
