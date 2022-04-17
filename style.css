@@ -127,7 +127,7 @@ a::before {
 .card {
   border-radius: 40px 40px;
   padding: 20px 20px;
-  background: url(img/patern.png);
+  background: url(img/patern.png) fixed;
   border-style: none;
 }
 
