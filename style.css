@@ -10,7 +10,7 @@
 } */
 
 body {
-  height: 665px;
+  height: 565px;
   background: linear-gradient(to right, #845ee6, #ef96e7, #3c72c2, #3cc269);
   background-size: 400% 400%;
   animation: body 10s infinite ease-in-out;
@@ -40,7 +40,9 @@ body {
   border: 5px solid #fff;
 }
 
-.profile-name {
+.profile-name h1 {
+  font-family: "Viga", sans-serif;
+  font-weight: 700;
   text-align: center;
   padding: 30px;
   font-size: 24px;
@@ -52,6 +54,8 @@ body {
   font-size: 18px;
   margin-top: 7px;
   margin-bottom: 5px;
+  text-align: center;
+  color: #fff;
 }
 
 marquee {
@@ -61,6 +65,7 @@ marquee {
 }
 
 .link {
+  font-family: "Viga", sans-serif;
   text-align: center;
   margin-top: 7px;
   /* border: 1px solid red; */
@@ -71,7 +76,7 @@ marquee {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50px;
-  font-size: 18px;
+  font-size: 15px;
   background-color: #845ee6;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
 }
@@ -132,12 +137,12 @@ a::before {
 }
 
 footer {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 footer p {
   font-family: "Viga", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   color: aliceblue;
   text-align: center;
 }
