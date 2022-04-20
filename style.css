@@ -137,7 +137,8 @@ a::before {
 }
 
 footer {
-  margin-top: 20px;
+  /* margin-top: 40px; */
+  margin-top: 20p;
 }
 
 footer p {
