@@ -205,3 +205,21 @@ footer p span {
     transition: color 1s;
   }
 } */
+
+@media (min-width: 992px) {
+  .illustrasi {
+    display: none;
+  }
+
+  .conuses {
+    display: none;
+  }
+
+  .ring {
+    display: none;
+  }
+
+  .link {
+    width: 350px;
+  }
+}
